@@ -1,0 +1,22 @@
+$background-color:  #12b0c5;
+$value-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$label-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+
+.widget-temps {
+
+  background-color: $background-color;
+  vertical-align: middle;
+
+  .title {
+    color: $title-color;
+  }
+
+  .value {
+    font-weight: 600;
+    color: $value-color;
+  }
+}
