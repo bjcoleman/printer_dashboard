@@ -4,7 +4,7 @@
 $background-color:  #ec663c;
 
 $title-color:       rgba(255, 255, 255, 0.7);
-$moreinfo-color:    rgba(255, 255, 255, 0.7);
+$value-color:    rgba(255, 255, 255, 1);
 
 // ----------------------------------------------------------------------------
 // Widget-text styles
@@ -14,19 +14,13 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   background-color: $background-color;
 
   .title {
+    font-size: 180%;
     color: $title-color;
   }
 
-  .more-info {
-    color: $moreinfo-color;
-  }
-
-  .updated-at {
-    color: rgba(255, 255, 255, 0.7);
-  }
-
-
-  &.large h3 {
-    font-size: 65px;
+  .value {
+    font-weight: 600;
+    color: $value-color;
+    font-size: 500%
   }
 }

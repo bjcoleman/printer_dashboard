@@ -1,7 +1,7 @@
 $background-color:  #dc5945;
 
 $title-color:       rgba(255, 255, 255, 0.7);
-$time-color:    rgba(255, 255, 255, 0.3);
+$time-color:    rgba(255, 255, 255, 1);
 
 
 // ----------------------------------------------------------------------------
@@ -14,13 +14,13 @@ $time-color:    rgba(255, 255, 255, 0.3);
   vertical-align: middle;
 
   .title {
+    font-size: 180%;
     color: $title-color;
   }
 
-  .time {
-    font-weight: 600;
+  .category {
     color: $time-color;
+    font-size: 220%;
   }
-
 
 }

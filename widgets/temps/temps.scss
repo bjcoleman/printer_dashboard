@@ -12,11 +12,13 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   vertical-align: middle;
 
   .title {
+    font-size: 180%;
     color: $title-color;
   }
 
   .value {
     font-weight: 600;
     color: $value-color;
+    font-size: 500%
   }
 }

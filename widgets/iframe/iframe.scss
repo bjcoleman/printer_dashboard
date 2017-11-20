@@ -1,8 +1,13 @@
 .widget-iframe {
-  padding: 3opx 30px 30px 30px !important;
   vertical-align: middle;
   iframe {
+    padding: 10px 0px 0px 68px !important;
     width: 100%;
     height: 100%;
+  }
+
+  .title{
+    font-weight: 600;
+    font-size: 250%
   }
 }

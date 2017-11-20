@@ -92,7 +92,7 @@ SCHEDULER.every '5s', :first_in => 0 do |job|
   else
     send_event('progress', { value: 0 })
     send_event('status', { text: 'Idle' })
-    send_event('job_name', { text: '' })
+    send_event('job_name', { text: 'N/A' })
     remaining = Hash.new
     remaining['days'] = 0
     remaining['hours'] = 0
